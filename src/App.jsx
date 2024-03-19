@@ -1,13 +1,18 @@
 import "./App.css";
+import LineChart from "./Components/LineChart/LineChart";
+// import DaisyNav from "./Components/DaisyNav/DaisyNav";
 import Navbar from "./Components/Navbar/Navbar";
+import Phones from "./Components/Phones/Phones";
+import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <h1 className="flex justify-center items-center text-4xl font-bold my-5">
-        Vite + React
-      </h1>
+      {/* <DaisyNav></DaisyNav> */}
+      <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
+      <Phones></Phones>
     </>
   );
 }
